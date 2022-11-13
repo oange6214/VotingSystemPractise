@@ -1,4 +1,5 @@
-﻿using VotingSystem.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using VotingSystem.Models;
 
 namespace VotingSystem.Database
 {
@@ -9,6 +10,13 @@ namespace VotingSystem.Database
 		public VotingSystemPersistance(AppDbContext ctx)
 		{
 			_ctx = ctx;
+		}
+
+		public VotingPoll GetPoll(int pollId)
+		{
+			return _ctx.VotingPolls
+				.Include(x => x.Counters)
+				.FirstOrDefault(x => EF.Property<int>(x, "Id") == pollId);
 		}
 
 		public void SaveVote(Vote vote)

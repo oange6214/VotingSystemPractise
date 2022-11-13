@@ -98,5 +98,40 @@ namespace VotingSystem.Database.Tests
 			}
 		}
 
+		[Fact]
+		public void GetPoll_ReturnsSavePollWithCounters()
+		{
+            var poll = new VotingPoll
+            {
+                Title = "title",
+                Description = "desc",
+                Counters = new List<Counter>
+                {
+                    new Counter { Name = "One" },
+                    new Counter { Name = "Two" }
+                }
+            };
+
+            using (var ctx = DbContextFactory.Create(nameof(GetPoll_ReturnsSavePollWithCounters)))
+            {
+				ctx.VotingPolls.Add(poll);
+				ctx.SaveChanges();
+            }
+
+            using (var ctx = DbContextFactory.Create(nameof(GetPoll_ReturnsSavePollWithCounters)))
+            {
+				var savedPoll = new VotingSystemPersistance(ctx).GetPoll(1);
+
+                Equal(poll.Title, savedPoll.Title);
+                Equal(poll.Description, savedPoll.Description);
+                Equal(poll.Counters.Count(), savedPoll.Counters.Count());
+
+                foreach (var name in poll.Counters.Select(x => x.Name))
+                {
+                    Contains(name, savedPoll.Counters.Select(x => x.Name));
+                }
+            }
+        }
+
 	}
 }

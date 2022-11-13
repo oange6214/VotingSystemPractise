@@ -5,16 +5,16 @@ using Xunit;
 
 namespace VotingSystem.Application.Tests
 {
-	public class VotingIntoractorTests
+	public class VotingInteractorTests
 	{
 		private Mock<IVotingSystemPersistance> _mockPersistance = new Mock<IVotingSystemPersistance>();
-		private readonly VotingIntoractor _intoractor;
+		private readonly VotingInteractor _intoractor;
 		private readonly Vote _vote;
 
-		public VotingIntoractorTests()
+		public VotingInteractorTests()
 		{
 			_vote = new Vote { UserId = "a", CounterId = 1 };
-			_intoractor = new VotingIntoractor(_mockPersistance.Object);
+			_intoractor = new VotingInteractor(_mockPersistance.Object);
 		}
 
 		[Fact]

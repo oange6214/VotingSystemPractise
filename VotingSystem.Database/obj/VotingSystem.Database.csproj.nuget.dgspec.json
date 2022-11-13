@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem.Database\\VotingSystem.Database.csproj": {}
+    "J:\\C#\\VotingSystem\\VotingSystem.Database\\VotingSystem.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem.Database\\VotingSystem.Database.csproj": {
+    "J:\\C#\\VotingSystem\\VotingSystem.Database\\VotingSystem.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem.Database\\VotingSystem.Database.csproj",
+        "projectUniqueName": "J:\\C#\\VotingSystem\\VotingSystem.Database\\VotingSystem.Database.csproj",
         "projectName": "VotingSystem.Database",
-        "projectPath": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem.Database\\VotingSystem.Database.csproj",
-        "packagesPath": "C:\\Users\\MyUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem.Database\\obj\\",
+        "projectPath": "J:\\C#\\VotingSystem\\VotingSystem.Database\\VotingSystem.Database.csproj",
+        "packagesPath": "C:\\Users\\his62\\.nuget\\packages\\",
+        "outputPath": "J:\\C#\\VotingSystem\\VotingSystem.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MyUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\his62\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem\\VotingSystem.csproj": {
-                "projectPath": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem\\VotingSystem.csproj"
+              "J:\\C#\\VotingSystem\\VotingSystem\\VotingSystem.csproj": {
+                "projectPath": "J:\\C#\\VotingSystem\\VotingSystem\\VotingSystem.csproj"
               }
             }
           }
@@ -74,20 +74,20 @@
         }
       }
     },
-    "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem\\VotingSystem.csproj": {
+    "J:\\C#\\VotingSystem\\VotingSystem\\VotingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem\\VotingSystem.csproj",
+        "projectUniqueName": "J:\\C#\\VotingSystem\\VotingSystem\\VotingSystem.csproj",
         "projectName": "VotingSystem",
-        "projectPath": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem\\VotingSystem.csproj",
-        "packagesPath": "C:\\Users\\MyUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\VotingSystem\\obj\\",
+        "projectPath": "J:\\C#\\VotingSystem\\VotingSystem\\VotingSystem.csproj",
+        "packagesPath": "C:\\Users\\his62\\.nuget\\packages\\",
+        "outputPath": "J:\\C#\\VotingSystem\\VotingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MyUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\his62\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

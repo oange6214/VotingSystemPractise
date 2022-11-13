@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\Sandbox.EFCore\\Sandbox.EFCore.csproj": {}
+    "J:\\C#\\VotingSystem\\Sandbox.EFCore\\Sandbox.EFCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\Sandbox.EFCore\\Sandbox.EFCore.csproj": {
+    "J:\\C#\\VotingSystem\\Sandbox.EFCore\\Sandbox.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\Sandbox.EFCore\\Sandbox.EFCore.csproj",
+        "projectUniqueName": "J:\\C#\\VotingSystem\\Sandbox.EFCore\\Sandbox.EFCore.csproj",
         "projectName": "Sandbox.EFCore",
-        "projectPath": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\Sandbox.EFCore\\Sandbox.EFCore.csproj",
-        "packagesPath": "C:\\Users\\MyUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyUser\\source\\repos\\VotingSystemPractise\\Sandbox.EFCore\\obj\\",
+        "projectPath": "J:\\C#\\VotingSystem\\Sandbox.EFCore\\Sandbox.EFCore.csproj",
+        "packagesPath": "C:\\Users\\his62\\.nuget\\packages\\",
+        "outputPath": "J:\\C#\\VotingSystem\\Sandbox.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MyUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\his62\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
